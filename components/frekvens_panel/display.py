@@ -8,6 +8,7 @@ from esphome.const import (
     CONF_CONTRAST,
 )
 
+from esphome.const import __version__ as ESPHOME_VERSION
 DEPENDENCIES = []
 
 CONF_LATCH_PIN = 'latch_pin'
